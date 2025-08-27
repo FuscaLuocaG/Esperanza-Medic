@@ -4,6 +4,21 @@ export default function Home() {
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+  <main className="flex flex-col items-center justify-center min-h-screen gap-6">
+  <h1 className="text-5xl font-bold text-blue-500">
+    Esperanza Medic
+  </h1>
+  <p className="text-lg text-gray-700 text-center max-w-md">
+    Esta es tu primera página con Next.js y Tailwind. Empieza a construir tu proyecto desde aquí.
+  </p>
+  <a
+    href="#"
+    className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition"
+  >
+    Comenzar
+  </a>
+</main>
+
         <Image
           className="dark:invert"
           src="/next.svg"
